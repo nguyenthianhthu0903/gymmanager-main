@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  gymmanager:
+    image: gymmanager
+    build:
+      context: .
+      dockerfile: ./Dockerfile
